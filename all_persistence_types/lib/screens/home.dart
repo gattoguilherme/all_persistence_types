@@ -1,10 +1,8 @@
-import 'package:all_persistence_types/utils/customWidgets.dart';
+import 'package:all_persistences_types/utils/customWidgets.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
-class Home extends StatelessWidget {
-  const Home({Key? key}) : super(key: key);
+class HomeWidget extends StatelessWidget {
+  const HomeWidget({Key? key}) : super(key: key);
 
   final title = const Text("Flutter Persistências");
 
@@ -26,6 +24,16 @@ class Home extends StatelessWidget {
             },
           ),
           divisorListMain(),
+          ListTile(
+            leading: buildSvgIcon("images/db.svg"),
+            title: const Text("Floor"),
+            subtitle: const Text("Lista de Livros"),
+            trailing: const Icon(Icons.navigate_next),
+            onTap: () {
+              Navigator.pushNamed(context, "/floor");
+            },
+          ),
+          divisorListMain()
         ],
       ),
     );

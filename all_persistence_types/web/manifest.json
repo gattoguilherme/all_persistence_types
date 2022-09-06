@@ -1,6 +1,6 @@
 {
-    "name": "all_persistence_types",
-    "short_name": "all_persistence_types",
+    "name": "all_persistences_types",
+    "short_name": "all_persistences_types",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,4 +1,4 @@
-# all_persistence_types
+# all_persistences_types
 
 A new Flutter project.
 
